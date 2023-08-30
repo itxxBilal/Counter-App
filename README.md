@@ -12,7 +12,8 @@ like this
 'react-scripts' is not recognized as an internal or external command,
 
 
-then "npm install react-scripts"
+### `npm install react-scripts`
+
 after this you can Run this App
 
 
