@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-image: url('img/pur.jpg');
+  
+}
+
+.counter-card {
+  width: 400px;
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(112, 6, 161, 0.2);
+  border-radius: 25px;
+  border: solid rgb(14, 2, 20);
+}
+
+.count {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.stopwatch-button,
+.increment-button,
+.decrement-button,
+.reset-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: solid rgb(124, 13, 189);
+  cursor: pointer;
+  border-radius: 30px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  margin: 5px;
+}
+
+.stopwatch-button {
+  background-color: black;
+  color: white;
+}
+
+.increment-button {
+  background-color: black;
+  color: white;
+}
+
+.decrement-button {
+  background-color: black;
+  color: white;
+}
+
+.reset-button {
+  background-color: black;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.stopwatch-button:hover,
+.increment-button:hover,
+.decrement-button:hover,
+.reset-button:hover {
+  background-color: #6212e2;
+}
+
+
